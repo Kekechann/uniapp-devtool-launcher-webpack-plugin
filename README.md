@@ -9,15 +9,13 @@ npm install uniapp-devtool-launcher-webpack-plugin --save-dev
 
 ## 2. 插件引用
 ```js
-// vue.config.js
-const UniappDevtoolLauncherWebpackPlugin = require("uniapp-devtool-launcher-webpack-plugin");
+// vue.config.j  new UniappDevtoolLauncherWebpackPlugin()
+    ]
+  }const UniappDevtoolLauncherWebpackPlugin = require("uniapp-devtool-launcher-webpack-plugin");
 
 module.exports = {
   configureWebpack: {
-    plugins: [
-      new UniappDevtoolLauncherWebpackPlugin()
-    ]
-  }
+    plug
 }
 ```
 
